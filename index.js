@@ -1,7 +1,7 @@
 import { question } from "readline-sync";
 
 const riddle = "Wo findest du Wälder ohne Bäume, Flüsse ohne Wasser und Städte ohne Häuser? ";
-const solution = "landkarte";
+const solution = "karte";
 
 let versuche = 3;
 
