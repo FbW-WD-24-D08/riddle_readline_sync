@@ -6,7 +6,17 @@ const solution = "landkarte";
 let versuche = 3;
 
 while(versuche > 0) {
-    let solution = readline.question(riddle + " ");
+    let answer = readline.question(riddle + " ");
+
+    if(answer.toLowercase() === solution){
+        console.log("Du hast das Rätsels Lösung!");
+        break;
+    } else {
+        versuche--;
+        if( versuche > 0) {
+            console.log();
+        }
+    }
 }
 
 
