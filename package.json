@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/FbW-WD-24-D08/riddle_readline_sync#readme",
   "dependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "readline-sync": "^1.4.10"
   }
 }
